@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import "../fonts/_fonts";
+@import "../sections/_header";
+@import "../sections/_sidebar";
+@import "../sections/_trending-NFTS";
+
+body {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(48px);
+}

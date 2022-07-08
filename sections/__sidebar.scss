@@ -1,0 +1,48 @@
+.container-general {
+  display: flex;
+  &__sidebar {
+    position: relative;
+    width: 84px;
+    overflow: hidden;
+    height: 984px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-image: url(../images/sidebar-back.png);
+    background-size: 120px 1000px;
+    background-position-x: -13px;
+    background-repeat: no-repeat;
+    &-icon {
+      display: block;
+      position: absolute;
+      top: 28px;
+      left: 28px;
+    }
+    &-box {
+      position: absolute;
+      width: 56px;
+      min-height: 107px;
+      right: 27px;
+      top: 133px;
+      z-index: -2;
+      background: #3162ff;
+      box-shadow: 5px 6px 19px rgba(62, 72, 118, 0.04);
+      border-radius: 20px;
+    }
+    &-icons-group {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      left: 30px;
+      top: 120px;
+      row-gap: 44px;
+    }
+    &-icon-settings{
+      margin-top: 380px;
+    }
+    &-flex-user{
+      display: flex;
+    }
+  }
+}

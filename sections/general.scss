@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  filter: opacity(0.9);
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+}
+@import "../sections/_sidebar";
+@import "../sections/_background-colors";
+@import "../sections/_header";
+@import "../sections/_discover-page";
+@import '../sections/_normalize';
